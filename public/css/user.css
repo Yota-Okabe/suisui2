@@ -1,0 +1,105 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+ul{
+   list-style: none;
+}
+.size{
+   font-size:1.5em;
+   padding-top: 5px;
+   padding-right: 10px;
+}
+a{
+   text-decoration: none;
+}
+.user{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.account{
+   text-align: center;
+}
+a{
+   color: #000000;
+}
+p{
+   color: #000000;
+}
+h2{
+   /* margin-bottom: 10px; */
+   color: #000000;
+}
+.edit{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   margin-bottom: 50px;
+}
+.edit-btn{
+   padding-top: 30px;
+}
+.edit-btn2{
+      display       : inline-block;
+      border-radius : 5%;         
+      font-size     : 18px;       
+      text-align    : center;     
+      cursor        : pointer;     
+      padding       : 12px 12px;   
+      background    : #FD9940;     
+      color         : #ffffff;    
+      line-height   : 1em;        
+      transition    : .3s;         
+      box-shadow    : 6px 6px 3px #666666; 
+      border        : 2px solid #FD9940;   
+      }
+.button:hover {
+   box-shadow    : none;        
+   color         : #FD9940;    
+   background    : #ffffff;   
+}
+
+h3{
+   color: #000000;
+}
+.human{
+   margin-top: 1rem;
+   color: #FD9940;
+}
+p{
+  color: #696969;
+}
+.hurt{
+   color: #FD9940;
+   margin-right: 10px;
+}
+.book{
+   color: #FD9940;
+   margin-right: 10px;
+}
+.favoritebox{
+   display: flex;
+}
+.cardbox{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+.orderbox{
+   display: flex;
+}
+.card{
+   color: #FD9940;
+   margin-right: 10px;
+}
+body{
+   background-color: #f0f0f0	;
+   height: 1000px;
+}
+@media screen and (max-width: 375px) {
+   main{
+      font-size: 13px;
+   }
+}

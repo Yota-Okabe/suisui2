@@ -1,0 +1,151 @@
+h2{
+   margin-top: 30px;
+   text-align: center;
+}
+p{
+   margin-top: 10px;
+   text-align: center;
+}
+.createbox{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+body{
+   background-color: #f0f0f0	;
+}
+.create{
+   margin-top: 50px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.btn-btn-primary{
+   margin-left: 180px;
+   background-color: #FD9940;
+   border-color: #FD9940;
+}
+a.btn-gradient {
+   margin-top: 5px;
+   color: #fff;
+   border: 2px solid #fff;
+   border-radius: 0;
+   background-image: -webkit-gradient(linear, left top, right top, from(#fa709a), to(#fee140));
+   background-image: -webkit-linear-gradient(left, #fa709a 0%, #fee140 100%);
+   background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+   -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+   box-shadow: 0 5px 10px rgba(0, 0, 0, .1); 
+}
+a.btn-gradient:hover {
+   -webkit-transform: translate(0, -2px);
+   transform: translate(0, -2px);
+   color: #fff;
+   -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, .2);
+   box-shadow: 0 8px 15px rgba(0, 0, 0, .2);
+}
+.restaurant{
+   margin-left: 10px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   flex-direction: row;
+   align-items: center;
+   overflow: scroll;
+}
+img{
+   height: 150px;
+   width: 200px;
+}
+main{
+   height: 1000px;
+   /* text-align: center; */
+}
+.edit-btn{
+   text-align: center;
+   padding-top: 10px;
+}
+.edit-btn2{
+   display: inline-block;
+   padding: 0.5em 1em;
+   text-decoration: none;
+   background: #668ad8;/*ボタン色*/
+   color: #FFF;
+   border-bottom: solid 4px #627295;
+   border-radius: 3px;
+}
+.edit-btn2:active {
+   -webkit-transform: translateY(4px);
+   transform: translateY(4px);
+   border-bottom: none;
+ }
+.input{
+   text-align: center;
+   padding-top: 100px;
+}
+.update-btn{
+   padding-top: 20px;
+}
+.update-btn2{
+   display: inline-block;
+   padding: 0.5em 1em;
+   text-decoration: none;
+   background: #668ad8;/*ボタン色*/
+   color: #FFF;
+   border-bottom: solid 4px #627295;
+   border-radius: 3px;
+}
+.update-btn2::active {
+   -webkit-transform: translateY(4px);
+   transform: translateY(4px);
+   border-bottom: none;
+}
+.delete-btn{
+   display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #668ad8;/*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+}
+.delte-btn:active {
+   -webkit-transform: translateY(4px);
+   transform: translateY(4px);
+   border-bottom: none;
+ }
+.order-table{
+   text-align: center;
+   /* padding-bottom: 100px; */
+   padding-top: 20px;
+}
+table th{
+   color: #FF9800;
+   background: #fff5e5;
+   padding: 10px;
+}
+table{
+   border-collapse: collapse;
+   border: solid 2px orange;
+   width:100%;
+}
+table th, table td{
+   border: dashed 1px orange;
+}
+table td {
+   padding: 3px 10px;
+}
+.d-btn{
+   padding-left: 60px;
+}
+.size{
+   font-size: 80px;
+}
+h3{
+   padding-top: 30px;
+}
+.restaurant_edit{
+   text-align: center;
+   padding-top: 20px;
+}

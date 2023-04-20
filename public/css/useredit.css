@@ -1,0 +1,38 @@
+.input{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+h3{
+   margin-top: 30px;
+}
+.human{
+   color: #FD9940;
+   margin-top: 1rem;
+}
+.btn{
+   margin-top: 1rem;
+}
+body{
+   background-color: #f0f0f0	;
+}
+.btn{
+   display       : inline-block;
+   border-radius : 5%;         
+   font-size     : 18px;       
+   text-align    : center;     
+   cursor        : pointer;     
+   padding       : 12px 12px;   
+   background    : #FD9940;     
+   color         : #ffffff;    
+   line-height   : 1em;        
+   transition    : .3s;         
+   box-shadow    : 6px 6px 3px #666666; 
+   border        : 2px solid #FD9940;   
+   }
+
+.change-form{
+   padding-top: 10px;
+}

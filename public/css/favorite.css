@@ -1,0 +1,125 @@
+h1{
+   margin-top: 20px;
+   text-align: center;
+}
+
+.favoritebox{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   flex-direction: row;
+   align-items: center;
+   overflow: scroll;
+}
+img{
+   width: 400px;
+   height: 300px;
+}
+.favorite{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 1rem 10px 0 10px;
+}
+footer{
+   height: 140px;
+}
+.hurt{
+   color: #FD9940;
+}
+.snow {
+   color: snow; 
+   font-size: 18px; 
+   position: fixed;
+   top: -5%; 
+   text-shadow:
+   5vw   -100px 2px,
+   10vw  -400px 3px,
+   20vw  -500px 4px,
+   30vw  -580px 1px,
+   39vw  -250px 2px,
+   42vw  -340px 5px,
+   56vw  -150px 2px,
+   63vw  -180px 0,
+   78vw  -220px 4px,
+   86vw  -320px 9px,
+   94vw  -170px 7px;
+   animation: anim 5s linear infinite;
+}
+@keyframes anim {
+   100% {
+      color: transparent;
+      top: 150%;
+   }
+}
+.paginate{
+   text-align: center;
+   margin-top: 50px;
+}
+body{
+   background-color: #f0f0f0	;
+}
+.order-table{
+   text-align: center;
+   padding-bottom: 100px;
+   padding-top: 20px;
+}
+table th{
+   color: #FF9800;
+   background: #fff5e5;
+   padding: 10px;
+}
+table{
+   border-collapse: collapse;
+   border: solid 2px orange;
+   width:350px;
+}
+table th, table td{
+   border: dashed 1px orange;
+}
+table td {
+   padding: 3px 10px;
+}
+.order-btn{
+   display       : inline-block;
+   border-radius : 5%;          /* 角丸       */
+   font-size     : 10pt;        /* 文字サイズ */
+   text-align    : center;      /* 文字位置   */
+   cursor        : pointer;     /* カーソル   */
+   padding       : 12px 12px;   /* 余白       */
+   background    : #FD9940;     /* 背景色     */
+   color         : #ffffff;     /* 文字色     */
+   line-height   : 1em;         /* 1行の高さ  */
+   transition    : .3s;         /* なめらか変化 */
+   box-shadow    : 6px 6px 3px #666666;  /* 影の設定 */
+   border        : 2px solid #FD9940;    /* 枠の指定 */
+}
+.order-btn1{
+   padding-top: 10px;
+}
+.favorite{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 1rem 10px 0 10px;
+}
+.favoritebox{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   flex-direction: row;
+   align-items: center;
+   overflow: scroll;
+}
+@media screen and (max-width: 375px) {
+   h1{
+      font-size: 20px;
+   }
+   img{
+      width: 300px;
+      height: 250px;
+   }
+   table{
+      width: 350px;
+   }
+}
